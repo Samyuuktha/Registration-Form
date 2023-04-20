@@ -1,0 +1,89 @@
+body{
+  box-sizing: border-box;
+  margin: 10px 150px 20px 150px;
+  }
+  .image{
+  background-color: rgb(47, 50, 83);
+  
+  }
+  .form{
+    padding-left: 150px;
+  padding-right: 250px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  border-radius: 15px;
+  border: 1rem;
+  }
+  .box1{
+    border-style: solid;
+    border-color: lightgrey;
+    padding: 2px 2px 2px 50px;
+    border-radius: 15px;
+    align-items: center;
+  }
+  .box2{
+    border-style: solid;
+    border-color: lightgrey;
+    align-items: stretch;
+    padding: 2px 2px 15px 50px;
+    border-radius: 15px;
+  }
+  .box3{
+    border-style: solid;
+    border-color: lightgrey;
+    align-items: stretch;
+    padding: 2px 2px 15px 50px;
+    border-radius: 15px;
+  }
+  .box4{
+    border-style: solid;
+    border-color: lightgrey;
+    align-items: stretch;
+    padding: 2px 2px 17px 50px;
+    border-radius: 15px;
+}
+.box5{
+    border-style: solid;
+    border-color: lightgrey;
+    align-items: stretch;
+    padding:2px 2px 15px 50px;
+    border-radius: 15px;
+}
+.box6{
+    border-style: solid;
+    border-color: lightgrey;
+    align-items: stretch;
+    padding: 2px 2px 17px 50px;
+    border-radius: 15px;
+}
+.Experience{
+    border-style: solid;
+    border-color: lightgrey;
+    align-items: stretch;
+    padding: 2px 2px 15px 50px;
+    border-radius: 15px;
+}
+.others{
+    border-style: solid;
+    border-color: lightgrey;
+    align-items: stretch;
+    padding: 2px 2px 17px 50px;
+    border-radius: 15px;
+}
+.Final{
+    border-style: solid;
+    border-color: lightgrey;
+    align-items: stretch;
+    padding: 2px 2px 17px 50px;
+    border-radius: 15px;
+}
+input[type="submit"] {
+  background-color: rgb(123, 152, 238);
+  color: aliceblue;
+  padding: 2px 2px ;
+  border-radius: 15px;
+  cursor: pointer;
+  width: 50%;
+  align-items: center;
+
+}
