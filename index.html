@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="amazon.css">
+    <title>Amazon Registration form</title>
+</head>
+<body>
+    <div class="navbar">
+        
+    </div>
+    <h1 align="center">Registration Form</h1>
+    <h3 align="center">Job Details</h3>
+<div class="form"><form action="">
+<div class="box1">
+    <p>Job Role <span style="color: red;">*</span></p>
+        <select name="Job role" id="Job role">
+            <option value="Ads content Reviewer">Ads content Reviewer-Vcc/Remote location</option>
+        </select>
+    <p style="color: orange;"><a href="http://" target="_blank" rel="noopener noreferrer" target="_blank" style="color: orange;"><b>View Job Description</b></p></a>
+</div>
+<h3 align="center">Source Details</h3>
+<div class="box2">
+    <p>How did you find about this job?<span style="color: red;">*</span></p>
+    <select name="how" id="how">
+        <option value="Social Media Advertisement">Social Media Advertisement</option>
+        <option value="Friends">Friends</option>
+        <option value="Family">Family</option>
+        <option value="Newspaper">Editorials</option>
+    </select>
+    <p>Social Media Advertisement <span style="color: red;">*</span></p>
+    <select name="Social Media" id="Social media">
+        <option value="Social Media"> Online Platform</option>
+        <option value="Watsapp">Watsapp</option>
+        <option value="Facebook">Facebook</option>
+        <option value="Instagram">Instagram</option>
+        <option value="LinkdIn">LinkdIn</option>
+        <option value="Others">Others</option>
+    </select>
+</div>
+<h3 align="center">Personal Details</h3>
+<div class="box3">
+    <p>Full Name <span style="color: red;">*</span></p>
+    <input type="text" name="Name" required placeholder="Name">
+    <p>Email Id <span style="color: red;">*</span></p>
+    <input type="email" name="email" id="email" required placeholder="Email Id">
+    <p>Mobile Number <span style="color: red;">*</span></p>
+    <input type="number" id="number" placeholder="+91">
+    <p>Date of birth <span style="color: red;">*</span></p>
+    <input type="date" id="date" value="dd-mm-yyyy">
+    <p>Gender <span style="color: red;">*</span></p>
+    <input type="radio" name="gender" id="male"> Male
+    <input type="radio" name="gender" id="female">Female 
+   <input type="radio" name="gender" id="others"> Others 
+</div>
+<h3 align="center">Disability</h3>
+<div class="box4">
+    <p style="font-size: larger;"> <b> Voluntary Self-Identification of Disability <span style="color: red;">*</span></b></p>
+    <select name="Disability" id="Disability">
+        <option value="disability">No, I don't have a disability</option>
+        <option value="disability">Yes, I have a disability</option>
+    </select>
+    <p>Mention your Disability <span style="color: red;">*</span></p>
+        <input type="text">
+</div>
+<h3 align="center">Address Details</h3>
+<div class="box5">
+    <p>Full address (House No/Floor/Building/Street) <span style="color: red;">*</span></p>
+    <textarea name="Address" id="address" cols="30" rows="5"></textarea>
+    <p>Current City <span style="color: red;">*</span></p>
+    <select name="City" id="City" value="City">
+    <option value="City">City</option>   
+    <option value="Delhi">Delhi</option>
+    <option value="Lucknow">Lucknow</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+    <option value="Hyderabad">Hyderabad</option>
+    <option value="Chennai">Chennai</option>
+    </select>
+    <p>Current state <span style="color: red;">*</span></p>
+    <select name="state" id="state">
+        <option value="State">State</option>
+        <option value="Up">Up</option>
+        <option value="Maharastra">Maharastra</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Telanagana">Telanagana</option>
+        <option value="TamilNadu">TamilNadu</option>
+    </select>
+    <p>Pincode <span style="color: red;">*</span></p>
+    <input type="number" name="pincode" id="pincode">
+</div>
+<h3 align="center">Highest Educational Profile</h3>
+<div class="box6">
+    <p>Highest Degree <span style="color: red;">*</span></p>
+    <select name="Qualification" id="Qualification">
+        <option value="Qualificaton">Qualification</option>
+        <option value="Post Graduation">Post Graduation</option>
+        <option value="Graduation">Graduation</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Matriculation">Matriculation</option>
+    </select>
+    <p>Year of Passing <span style="color: red;">*</span></p>
+    <select name="Passing" id="passing">
+        <option value="Year">Year</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+    </select>
+    <p>Education Type <span style="color: red;">*</span></p>
+    <select name="type" id="type">
+        <option value="Type">Type</option>
+        <option value="Btech">Btech</option>
+        <option value="BSc">Bsc</option>
+        <option value="Commerce">Commerce</option>
+        <option value="Diploma">Diploma</option>
+    </select>
+</div>
+<h3 align="center">Experience Details</h3>
+<div class="Experience">
+    <p>Total Experience (In Months) <span style="color: red;">*</span></p>
+    <input type="number" name="number" id="number" placeholder="0">
+    <p>Are you working currently? <span style="color: red;">*</span></p>
+    <input type="text" name="yesorno" id="yesorno">
+    <p>Notice Period <span style="color: red;">*</span></p>
+    <select name="notice Period" id="Notice period" placeholder="Can join immediately">
+        <option value="Yes" >Can join immediately</option>
+        <option value="1month">1 month</option>
+        <option value="2months">2 months</option>
+        <option value="3months">3 months</option>
+    </select>
+    <p>Current Monthly Salary (INR)</p>
+    <input type="number" name="Number" id="Ruppes" placeholder="0">
+</div>
+<h3 align="center">Other Details</h3>
+<div class="others">
+    <p>Do you have any active/current backlogs? <span style="color: red;">*</span></p>
+    <input type="text" name="backlogs" id="backlogs" placeholder="0">
+    <p>Are you willing to work overtime as per Business requirements? <span style="color: red;">*</span></p>
+    <input type="text" name="work" id="work">
+    <p>Are you willing to work in rotational shifts & week offs if there is a Business requirement? <span style="color: red;">*</span></p>
+    <input type="text" name="work" id="work">
+    <p>Are you willing to relocate the location mentioned in the job description? <span style="color: red;">*</span></p>
+    <input type="text" name="work" id="work">
+    <p>Are you willing to be in a job that may require interacting with customers via telephone or E-mail? <span style="color: red;">*</span></p>
+    <input type="text" name="work" id="work">
+    <p>Have you ever been in Amazon? <span style="color: red;">*</span></p>
+    <input type="text" name="work" id="work">
+</div>
+<h3 align="center">Declaration and consent</h3>
+<div class="Final"> 
+   <p><b><input type="checkbox">By checking this box, I confirm my understanding of the following</b></p>
+   <p>Information provided in support of this application, including but not limited to my resume or CV and the above information, is true and correct. I understand that false statements or material omissions of any kind during the hiring process may result in denial of employment or discharge.</p>
+    <p><b>I acknowledge that I have read and understood the job description for the role I am applying for completely.</b></p>
+    <p>I understand that nothing contained in this employment application or interview process is intended to create an employment contract between Amazon and me and that no representation or promise regarding the duration or the termination of employment with Amazon is authorized or binding unless contained in a written document signed by an officer of Amazon.</p>
+    <p>I also understand that I need to submit below documents upon my selection & joining at Amazon:</p>
+    <li> All relieving letters from my previous employers</li>
+    <li>All educational documents (provisional degree certificate/consolidated mark-sheet memo)</li>
+    <li> PAN card</li>
+</div>
+<br>
+<input type="submit" style="margin-left: 27%">
+</form></div>
+</body>
+</html>
